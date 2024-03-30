@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBoxGiris = new System.Windows.Forms.GroupBox();
+            this.labelDurum = new System.Windows.Forms.Label();
+            this.numericUpDownOkulNo = new System.Windows.Forms.NumericUpDown();
             this.buttonKayit = new System.Windows.Forms.Button();
             this.labelSinifi = new System.Windows.Forms.Label();
             this.buttonGiris = new System.Windows.Forms.Button();
@@ -36,8 +38,6 @@
             this.labelOkulNo = new System.Windows.Forms.Label();
             this.textBoxSinifi = new System.Windows.Forms.TextBox();
             this.textBoxAdiSoyadi = new System.Windows.Forms.TextBox();
-            this.numericUpDownOkulNo = new System.Windows.Forms.NumericUpDown();
-            this.labelDurum = new System.Windows.Forms.Label();
             this.groupBoxGiris.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownOkulNo)).BeginInit();
             this.SuspendLayout();
@@ -59,6 +59,36 @@
             this.groupBoxGiris.TabIndex = 0;
             this.groupBoxGiris.TabStop = false;
             this.groupBoxGiris.Text = "Öğrenci Bilgileri";
+            // 
+            // labelDurum
+            // 
+            this.labelDurum.AutoSize = true;
+            this.labelDurum.Location = new System.Drawing.Point(76, 149);
+            this.labelDurum.Name = "labelDurum";
+            this.labelDurum.Size = new System.Drawing.Size(0, 13);
+            this.labelDurum.TabIndex = 4;
+            // 
+            // numericUpDownOkulNo
+            // 
+            this.numericUpDownOkulNo.Location = new System.Drawing.Point(79, 34);
+            this.numericUpDownOkulNo.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericUpDownOkulNo.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownOkulNo.Name = "numericUpDownOkulNo";
+            this.numericUpDownOkulNo.Size = new System.Drawing.Size(138, 20);
+            this.numericUpDownOkulNo.TabIndex = 3;
+            this.numericUpDownOkulNo.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // buttonKayit
             // 
@@ -120,26 +150,6 @@
             this.textBoxAdiSoyadi.Name = "textBoxAdiSoyadi";
             this.textBoxAdiSoyadi.Size = new System.Drawing.Size(138, 20);
             this.textBoxAdiSoyadi.TabIndex = 0;
-            // 
-            // numericUpDownOkulNo
-            // 
-            this.numericUpDownOkulNo.Location = new System.Drawing.Point(79, 34);
-            this.numericUpDownOkulNo.Name = "numericUpDownOkulNo";
-            this.numericUpDownOkulNo.Size = new System.Drawing.Size(138, 20);
-            this.numericUpDownOkulNo.TabIndex = 3;
-            this.numericUpDownOkulNo.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // labelDurum
-            // 
-            this.labelDurum.AutoSize = true;
-            this.labelDurum.Location = new System.Drawing.Point(76, 149);
-            this.labelDurum.Name = "labelDurum";
-            this.labelDurum.Size = new System.Drawing.Size(0, 13);
-            this.labelDurum.TabIndex = 4;
             // 
             // FormGiris
             // 

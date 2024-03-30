@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBoxKayit = new System.Windows.Forms.GroupBox();
+            this.numericOkulNo = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtBoxDali = new System.Windows.Forms.TextBox();
@@ -40,7 +41,6 @@
             this.lblOkulNo = new System.Windows.Forms.Label();
             this.txtBoxSinifi = new System.Windows.Forms.TextBox();
             this.txtBoxAdiSoyadi = new System.Windows.Forms.TextBox();
-            this.numericOkulNo = new System.Windows.Forms.NumericUpDown();
             this.groupBoxKayit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericOkulNo)).BeginInit();
             this.SuspendLayout();
@@ -65,6 +65,28 @@
             this.groupBoxKayit.TabIndex = 2;
             this.groupBoxKayit.TabStop = false;
             this.groupBoxKayit.Text = "Öğrenci Bilgileri";
+            // 
+            // numericOkulNo
+            // 
+            this.numericOkulNo.Location = new System.Drawing.Point(88, 34);
+            this.numericOkulNo.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericOkulNo.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericOkulNo.Name = "numericOkulNo";
+            this.numericOkulNo.Size = new System.Drawing.Size(164, 20);
+            this.numericOkulNo.TabIndex = 9;
+            this.numericOkulNo.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // label2
             // 
@@ -159,18 +181,6 @@
             this.txtBoxAdiSoyadi.Size = new System.Drawing.Size(164, 20);
             this.txtBoxAdiSoyadi.TabIndex = 0;
             // 
-            // numericOkulNo
-            // 
-            this.numericOkulNo.Location = new System.Drawing.Point(88, 34);
-            this.numericOkulNo.Name = "numericOkulNo";
-            this.numericOkulNo.Size = new System.Drawing.Size(164, 20);
-            this.numericOkulNo.TabIndex = 9;
-            this.numericOkulNo.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
             // FormKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,7 +189,6 @@
             this.Controls.Add(this.groupBoxKayit);
             this.Name = "FormKayit";
             this.Text = "Kayıt Ekranı";
-            this.Load += new System.EventHandler(this.FormKayit_Load);
             this.groupBoxKayit.ResumeLayout(false);
             this.groupBoxKayit.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericOkulNo)).EndInit();

@@ -21,7 +21,6 @@ namespace UygulamaSinavi2Donem1Yazili
 
         private void FormUygulama_Load(object sender, EventArgs e)
         {
-           
             txtOkulNo.Text = liste2[indexNo].Numara.ToString();
             txtAdiSoyadi.Text = liste2[indexNo].AdSoyad;
             txtSinifi.Text = liste2[indexNo].Sinif;
@@ -29,11 +28,6 @@ namespace UygulamaSinavi2Donem1Yazili
             textDali.Text = liste2[indexNo].Dal;
             dataGridViewOgrenci.DataSource = null;
             dataGridViewOgrenci.DataSource = liste2;
-        }
-
-        private void txtOkulNo_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnKapat_Click(object sender, EventArgs e)

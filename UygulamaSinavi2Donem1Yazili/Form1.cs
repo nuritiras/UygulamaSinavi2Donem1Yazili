@@ -31,9 +31,9 @@ namespace UygulamaSinavi2Donem1Yazili
             int indeks = 0;
             foreach (var ogrenci in liste1)
             {
-                if(ogrenci.Numara==Convert.ToInt32(numericUpDownOkulNo.Value) && 
-                   ogrenci.AdSoyad==textBoxAdiSoyadi.Text &&
-                   ogrenci.Sinif==textBoxSinifi.Text)
+                if (ogrenci.Numara == Convert.ToInt32(numericUpDownOkulNo.Value) &&
+                   ogrenci.AdSoyad == textBoxAdiSoyadi.Text &&
+                   ogrenci.Sinif == textBoxSinifi.Text)
                 {
                     FormUygulama formUygulama = new FormUygulama();
                     formUygulama.liste2 = liste1;
@@ -46,11 +46,11 @@ namespace UygulamaSinavi2Donem1Yazili
                 }
                 indeks++;
             }
-            if(!durum)
+            if (!durum)
             {
-                labelDurum.Text="Bilgiler uyuşmuyor!";
-                labelDurum.ForeColor =Color.Red;
+                labelDurum.Text = "Bilgiler uyuşmuyor!";
+                labelDurum.ForeColor = Color.Red;
             }
-        }   
+        }
     }
 }

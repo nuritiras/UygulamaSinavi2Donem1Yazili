@@ -22,7 +22,7 @@ namespace UygulamaSinavi2Donem1Yazili
         {
             FormGiris formGiris = new FormGiris();
             formGiris.liste1 = liste;
-            formGiris.Show();    
+            formGiris.Show();
             this.Close();
         }
 
@@ -38,19 +38,13 @@ namespace UygulamaSinavi2Donem1Yazili
             else
             {
                 Ogrenci ogrenci = new Ogrenci();
-                ogrenci.Numara =Convert.ToInt32(numericOkulNo.Value);
+                ogrenci.Numara = Convert.ToInt32(numericOkulNo.Value);
                 ogrenci.AdSoyad = txtBoxAdiSoyadi.Text;
                 ogrenci.Sinif = txtBoxSinifi.Text;
                 ogrenci.Alan = txtBoxAlani.Text;
                 ogrenci.Dal = txtBoxDali.Text;
                 liste.Add(ogrenci);
             }
-                
-        }
-
-        private void FormKayit_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

@@ -125,7 +125,6 @@
             this.txtOkulNo.Name = "txtOkulNo";
             this.txtOkulNo.Size = new System.Drawing.Size(224, 20);
             this.txtOkulNo.TabIndex = 4;
-            this.txtOkulNo.TextChanged += new System.EventHandler(this.txtOkulNo_TextChanged);
             // 
             // tabPageAlan
             // 
