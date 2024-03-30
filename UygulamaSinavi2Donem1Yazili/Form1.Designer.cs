@@ -157,8 +157,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 260);
             this.Controls.Add(this.groupBoxGiris);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormGiris";
             this.Text = "Giriş Ekranı";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormGiris_FormClosed);
+            this.Load += new System.EventHandler(this.FormGiris_Load);
             this.groupBoxGiris.ResumeLayout(false);
             this.groupBoxGiris.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownOkulNo)).EndInit();

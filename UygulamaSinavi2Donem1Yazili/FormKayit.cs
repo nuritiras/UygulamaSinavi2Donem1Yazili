@@ -33,18 +33,24 @@ namespace UygulamaSinavi2Donem1Yazili
                 string.IsNullOrEmpty(txtBoxAlani.Text) ||
                 string.IsNullOrEmpty(txtBoxDali.Text))
             {
-                MessageBox.Show("Alanlar boş bırakılamaz.", "Uyarı");
+                labelSonuc.Text="Alanlar boş bırakılamaz.";
             }
             else
             {
+                labelSonuc.Text = "";
                 Ogrenci ogrenci = new Ogrenci();
                 ogrenci.Numara = Convert.ToInt32(numericOkulNo.Value);
                 ogrenci.AdSoyad = txtBoxAdiSoyadi.Text;
                 ogrenci.Sinif = txtBoxSinifi.Text;
                 ogrenci.Alan = txtBoxAlani.Text;
                 ogrenci.Dal = txtBoxDali.Text;
-                liste.Add(ogrenci);
+                liste.Add(ogrenci);             
             }
+        }
+
+        private void FormKayit_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
         }
     }
 }

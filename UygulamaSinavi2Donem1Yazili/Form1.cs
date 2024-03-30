@@ -52,5 +52,15 @@ namespace UygulamaSinavi2Donem1Yazili
                 labelDurum.ForeColor = Color.Red;
             }
         }
+
+        private void FormGiris_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+        }
+
+        private void FormGiris_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MessageBox.Show("Bizi tercih ettiğiniz için teşekkür ederiz.","Bilgi");
+        }
     }
 }

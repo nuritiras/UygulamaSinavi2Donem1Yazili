@@ -41,12 +41,14 @@
             this.lblOkulNo = new System.Windows.Forms.Label();
             this.txtBoxSinifi = new System.Windows.Forms.TextBox();
             this.txtBoxAdiSoyadi = new System.Windows.Forms.TextBox();
+            this.labelSonuc = new System.Windows.Forms.Label();
             this.groupBoxKayit.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericOkulNo)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxKayit
             // 
+            this.groupBoxKayit.Controls.Add(this.labelSonuc);
             this.groupBoxKayit.Controls.Add(this.numericOkulNo);
             this.groupBoxKayit.Controls.Add(this.label2);
             this.groupBoxKayit.Controls.Add(this.label3);
@@ -61,7 +63,7 @@
             this.groupBoxKayit.Controls.Add(this.txtBoxAdiSoyadi);
             this.groupBoxKayit.Location = new System.Drawing.Point(22, 27);
             this.groupBoxKayit.Name = "groupBoxKayit";
-            this.groupBoxKayit.Size = new System.Drawing.Size(273, 271);
+            this.groupBoxKayit.Size = new System.Drawing.Size(273, 286);
             this.groupBoxKayit.TabIndex = 2;
             this.groupBoxKayit.TabStop = false;
             this.groupBoxKayit.Text = "Öğrenci Bilgileri";
@@ -122,7 +124,7 @@
             // 
             // btnKayit
             // 
-            this.btnKayit.Location = new System.Drawing.Point(142, 225);
+            this.btnKayit.Location = new System.Drawing.Point(142, 247);
             this.btnKayit.Name = "btnKayit";
             this.btnKayit.Size = new System.Drawing.Size(110, 23);
             this.btnKayit.TabIndex = 6;
@@ -141,7 +143,7 @@
             // 
             // btnKapat
             // 
-            this.btnKapat.Location = new System.Drawing.Point(73, 225);
+            this.btnKapat.Location = new System.Drawing.Point(73, 247);
             this.btnKapat.Name = "btnKapat";
             this.btnKapat.Size = new System.Drawing.Size(63, 23);
             this.btnKapat.TabIndex = 5;
@@ -181,14 +183,26 @@
             this.txtBoxAdiSoyadi.Size = new System.Drawing.Size(164, 20);
             this.txtBoxAdiSoyadi.TabIndex = 1;
             // 
+            // labelSonuc
+            // 
+            this.labelSonuc.AutoSize = true;
+            this.labelSonuc.ForeColor = System.Drawing.Color.Red;
+            this.labelSonuc.Location = new System.Drawing.Point(90, 223);
+            this.labelSonuc.Name = "labelSonuc";
+            this.labelSonuc.Size = new System.Drawing.Size(0, 13);
+            this.labelSonuc.TabIndex = 9;
+            // 
             // FormKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(318, 317);
+            this.ClientSize = new System.Drawing.Size(318, 325);
+            this.ControlBox = false;
             this.Controls.Add(this.groupBoxKayit);
+            this.MaximizeBox = false;
             this.Name = "FormKayit";
             this.Text = "Kayıt Ekranı";
+            this.Load += new System.EventHandler(this.FormKayit_Load);
             this.groupBoxKayit.ResumeLayout(false);
             this.groupBoxKayit.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericOkulNo)).EndInit();
@@ -211,5 +225,6 @@
         private System.Windows.Forms.TextBox txtBoxSinifi;
         private System.Windows.Forms.TextBox txtBoxAdiSoyadi;
         private System.Windows.Forms.NumericUpDown numericOkulNo;
+        private System.Windows.Forms.Label labelSonuc;
     }
 }

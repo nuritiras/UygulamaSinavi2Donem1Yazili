@@ -21,6 +21,7 @@ namespace UygulamaSinavi2Donem1Yazili
 
         private void FormUygulama_Load(object sender, EventArgs e)
         {
+            this.CenterToScreen();
             txtOkulNo.Text = liste2[indexNo].Numara.ToString();
             txtAdiSoyadi.Text = liste2[indexNo].AdSoyad;
             txtSinifi.Text = liste2[indexNo].Sinif;
