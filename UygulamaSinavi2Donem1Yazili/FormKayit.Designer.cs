@@ -81,7 +81,7 @@
             0});
             this.numericOkulNo.Name = "numericOkulNo";
             this.numericOkulNo.Size = new System.Drawing.Size(164, 20);
-            this.numericOkulNo.TabIndex = 9;
+            this.numericOkulNo.TabIndex = 0;
             this.numericOkulNo.Value = new decimal(new int[] {
             1,
             0,
@@ -118,14 +118,14 @@
             this.txtBoxAlani.Location = new System.Drawing.Point(88, 151);
             this.txtBoxAlani.Name = "txtBoxAlani";
             this.txtBoxAlani.Size = new System.Drawing.Size(164, 20);
-            this.txtBoxAlani.TabIndex = 5;
+            this.txtBoxAlani.TabIndex = 3;
             // 
             // btnKayit
             // 
             this.btnKayit.Location = new System.Drawing.Point(142, 225);
             this.btnKayit.Name = "btnKayit";
             this.btnKayit.Size = new System.Drawing.Size(110, 23);
-            this.btnKayit.TabIndex = 2;
+            this.btnKayit.TabIndex = 6;
             this.btnKayit.Text = "Öğrenciyi Kaydet";
             this.btnKayit.UseVisualStyleBackColor = true;
             this.btnKayit.Click += new System.EventHandler(this.btnKayit_Click);
@@ -144,7 +144,7 @@
             this.btnKapat.Location = new System.Drawing.Point(73, 225);
             this.btnKapat.Name = "btnKapat";
             this.btnKapat.Size = new System.Drawing.Size(63, 23);
-            this.btnKapat.TabIndex = 1;
+            this.btnKapat.TabIndex = 5;
             this.btnKapat.Text = "Kapat";
             this.btnKapat.UseVisualStyleBackColor = true;
             this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
@@ -172,14 +172,14 @@
             this.txtBoxSinifi.Location = new System.Drawing.Point(88, 111);
             this.txtBoxSinifi.Name = "txtBoxSinifi";
             this.txtBoxSinifi.Size = new System.Drawing.Size(164, 20);
-            this.txtBoxSinifi.TabIndex = 0;
+            this.txtBoxSinifi.TabIndex = 2;
             // 
             // txtBoxAdiSoyadi
             // 
             this.txtBoxAdiSoyadi.Location = new System.Drawing.Point(88, 71);
             this.txtBoxAdiSoyadi.Name = "txtBoxAdiSoyadi";
             this.txtBoxAdiSoyadi.Size = new System.Drawing.Size(164, 20);
-            this.txtBoxAdiSoyadi.TabIndex = 0;
+            this.txtBoxAdiSoyadi.TabIndex = 1;
             // 
             // FormKayit
             // 

@@ -83,7 +83,7 @@
             0});
             this.numericUpDownOkulNo.Name = "numericUpDownOkulNo";
             this.numericUpDownOkulNo.Size = new System.Drawing.Size(138, 20);
-            this.numericUpDownOkulNo.TabIndex = 3;
+            this.numericUpDownOkulNo.TabIndex = 0;
             this.numericUpDownOkulNo.Value = new decimal(new int[] {
             1,
             0,
@@ -95,7 +95,7 @@
             this.buttonKayit.Location = new System.Drawing.Point(124, 177);
             this.buttonKayit.Name = "buttonKayit";
             this.buttonKayit.Size = new System.Drawing.Size(93, 23);
-            this.buttonKayit.TabIndex = 2;
+            this.buttonKayit.TabIndex = 4;
             this.buttonKayit.Text = "Öğrenci Kayıt";
             this.buttonKayit.UseVisualStyleBackColor = true;
             this.buttonKayit.Click += new System.EventHandler(this.buttonKayit_Click);
@@ -114,7 +114,7 @@
             this.buttonGiris.Location = new System.Drawing.Point(27, 177);
             this.buttonGiris.Name = "buttonGiris";
             this.buttonGiris.Size = new System.Drawing.Size(75, 23);
-            this.buttonGiris.TabIndex = 1;
+            this.buttonGiris.TabIndex = 3;
             this.buttonGiris.Text = "Giriş";
             this.buttonGiris.UseVisualStyleBackColor = true;
             this.buttonGiris.Click += new System.EventHandler(this.buttonGiris_Click);
@@ -142,14 +142,14 @@
             this.textBoxSinifi.Location = new System.Drawing.Point(79, 111);
             this.textBoxSinifi.Name = "textBoxSinifi";
             this.textBoxSinifi.Size = new System.Drawing.Size(138, 20);
-            this.textBoxSinifi.TabIndex = 0;
+            this.textBoxSinifi.TabIndex = 2;
             // 
             // textBoxAdiSoyadi
             // 
             this.textBoxAdiSoyadi.Location = new System.Drawing.Point(79, 71);
             this.textBoxAdiSoyadi.Name = "textBoxAdiSoyadi";
             this.textBoxAdiSoyadi.Size = new System.Drawing.Size(138, 20);
-            this.textBoxAdiSoyadi.TabIndex = 0;
+            this.textBoxAdiSoyadi.TabIndex = 1;
             // 
             // FormGiris
             // 
